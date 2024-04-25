@@ -1,0 +1,45 @@
+.preferences-header {
+    text-align: center;
+}
+
+.preferences-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.preference-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 23px;
+}
+
+.preference-image {
+    width: 100px;
+}
+
+.preference-text {
+
+}
+
+.preference-name {
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+.preference-type {
+    font-weight: 600;
+    width: fit-content;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    margin: 0;
+}

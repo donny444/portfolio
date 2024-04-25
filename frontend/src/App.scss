@@ -1,0 +1,22 @@
+@use "components/biography/biography";
+@use "components/contacts/contacts";
+@use "components/education/education";
+@use "components/preferences/preferences";
+@use "components/skills/skills";
+@use "components/footer/footer";
+@use "components/icons/icons";
+
+$black: #202020;
+$white: #f5f5f5;
+$open-sans: "Open Sans", sans-serif;
+
+* {
+    font-family: $open-sans;
+    box-sizing: border-box;
+    color: $white;
+}
+
+body {
+    margin: 0;
+    background-color: $black;
+}
